@@ -31,7 +31,7 @@ const OrderForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="form-container">
-      <h2>Hoodie Order Form</h2>
+      <h2>Nexus Hoodies</h2>
 
       <input name="name" placeholder="Full Name" onChange={handleChange} required />
       <input name="phone" placeholder="Phone Number" onChange={handleChange} required />
